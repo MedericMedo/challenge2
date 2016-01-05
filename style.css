@@ -1,0 +1,139 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("images/bg.png");
+}
+
+.div-principale {
+  background-color: white;
+  margin: auto;
+  width: 994px;
+  padding: 0px 47px 30px 47px;
+}
+
+header, nav, main, footer  {
+  width: 900px;
+  margin: auto;
+  font-family: "Terminal Dosis"
+}
+
+header {
+  padding-top: 50px;
+}
+
+header div {
+  width: 34px;
+  height: 22px;
+  padding-top: 4px;
+  padding-left: 10px;
+  margin-top: 28px;
+}
+
+.loupe {
+  float: right;
+}
+
+header h2 {
+  clear: both;
+}
+
+header h1 {
+  font-size: 52px;
+  float: left;
+}
+
+header h2 {
+  font-size: 13px;
+}
+
+nav {
+  height: 59px;
+  background-color: #F4F4F4;
+  border-top: solid 1px #EAEAEA;
+  border-bottom: solid 1px #EAEAEA;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+  margin-top: 21px;
+  width: 145px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+main img {
+  width: 900px;
+  height: 508px;
+}
+
+.div-titre-selection {
+  /*text-align: center;*/
+}
+
+main section {
+  margin-top: 38px;
+}
+
+main section h2 {
+  font-size: 28px;
+  text-align: center;
+}
+
+main section p {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 22px;
+  margin-bottom: 30px;
+}
+
+main section a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.art p {
+  margin-bottom: 30px;
+  font-size: 13px;
+  text-align: left;
+}
+
+.pres-footer {
+  height: 40px;
+  background-color: #F4F4F4;
+  border-top: solid 1px #EAEAEA;
+  border-bottom: solid 1px #EAEAEA;
+}
+
+main h3 {
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.titre-footer {
+  height: 75px;
+}
+
+.titre-footer h3 {
+  padding-top: 30px;
+}
+
+footer {
+  height: 235px;
+  border-top: solid 1px #EAEAEA;
+  background-color: #F4F4F4;
+}
