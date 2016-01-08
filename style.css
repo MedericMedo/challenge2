@@ -18,6 +18,10 @@ body {
   box-shadow: 0px 0px 10px black;
 }
 
+a:hover {
+  color: #797979;
+}
+
 header, nav, main, footer  {
   width: 900px;
   margin: auto;
@@ -26,6 +30,7 @@ header, nav, main, footer  {
 
 header {
   padding-top: 50px;
+  color: #393939;
 }
 
 header div {
@@ -71,8 +76,8 @@ nav li {
 
 nav .menu-1 > li {
   display: inline-block;
-  margin-bottom: 30px;
-  height: 39px
+  margin-bottom: 80px;
+  height: 39px;
 }
 
 nav .menu-2 {
@@ -81,20 +86,23 @@ nav .menu-2 {
   background-color: #F4F4F4;
   padding-bottom: 10px;
   border-radius: 0px 0px 5px 5px;
-  bottom: 48px;
+  margin-top: 19px;
 }
 
 nav .menu-2 li {
   margin-top: 10px;
 }
 
-nav .menu-1 > li:hover .menu-2 {
+nav .menu-1 li:hover .menu-2 {
   display: block;
 }
 
 nav a {
   text-decoration: none;
-  color: black;
+  color: #313131;
+  font-weight: bold;
+  height: 40px;
+  font-size: 14px;
 }
 
 main img {
@@ -102,12 +110,9 @@ main img {
   height: 508px;
 }
 
-.div-titre-selection {
-  /*text-align: center;*/
-}
-
 main section {
   margin-top: 38px;
+  color: #393939;
 }
 
 main section h2 {
@@ -153,6 +158,7 @@ main h3 {
 
 .titre-footer h3 {
   padding-top: 30px;
+  color: #393939;
 }
 
 footer {
@@ -160,6 +166,7 @@ footer {
   border-top: solid 1px #EAEAEA;
   background-color: #F4F4F4;
   padding: 15px;
+  color: #393939;
 }
 
 footer h3 {
